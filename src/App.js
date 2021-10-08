@@ -1,8 +1,12 @@
+import Header from './components/Header'
+import Tasks from './components/Tasks'
+
 function App() {
-  
+
   return (
     <div className="container">
-      <h1>Hello</h1>
+      <Header title='Task Tracker'/>
+      <Tasks/>
     </div>
   );
 }
